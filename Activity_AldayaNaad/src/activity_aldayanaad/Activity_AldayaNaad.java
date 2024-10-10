@@ -5,6 +5,7 @@
 package activity_aldayanaad;
 
 import java.util.Scanner;
+import activity_aldayanaad.Activity_AldayaNaad;
 
 /**
  *
@@ -19,7 +20,10 @@ public class Activity_AldayaNaad {
         System.out.println("Hello World");
         Activity_AldayaNaad calculator = new Activity_AldayaNaad();
         calculator.calculate();
-       
+        
+        NewClass cal = new NewClass();
+        cal.meean();
+        
     }
     
     public void calculate(){
@@ -31,7 +35,7 @@ public class Activity_AldayaNaad {
         System.out.print("Enter the second number: ");
         b = scanner.nextInt();
         
-        System.out.print("Enter the second number: ");
+        System.out.print("Enter the third number: ");
         c = scanner.nextInt();
         sum = a + b + c;
         difference = a - b-c;
@@ -49,5 +53,6 @@ public class Activity_AldayaNaad {
         System.out.println("Quotient: " + quotient);
     }
     }
+
     
 

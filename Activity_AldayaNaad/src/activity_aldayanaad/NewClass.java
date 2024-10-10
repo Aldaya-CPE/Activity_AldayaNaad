@@ -12,14 +12,14 @@ import javax.xml.transform.OutputKeys;
  *
  * @author Clarisse Angeline
  */
+
 public class NewClass {
-     public static void main(String[] args) throws Exception {
-     Scanner scanner  = new Scanner(System.in);
-     
+     public static void meean() {
        int [] numbers = {2,4,6,8,10};
+         System.out.println("The Numbers are: 2, 4, 6, 8, 10");
+         
        double mean = calculateMean(numbers);
-       
-       System.out.println("Mean: " + mean);
+       System.out.println("The Mean is: " + mean);
      }
               
      public static double calculateMean(int[]numbers){
