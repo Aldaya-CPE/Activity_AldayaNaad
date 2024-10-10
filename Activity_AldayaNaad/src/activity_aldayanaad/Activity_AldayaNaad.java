@@ -24,6 +24,8 @@ public class Activity_AldayaNaad {
         NewClass cal = new NewClass();
         cal.meean();
         
+        Name name = new Name();
+        name.list();
     }
     
     public void calculate(){
